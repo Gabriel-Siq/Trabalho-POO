@@ -13,6 +13,7 @@ public class LinhaFerroviaria {
     }
 
    //setget
+   
 
     public int getNumero() {
         return numero;

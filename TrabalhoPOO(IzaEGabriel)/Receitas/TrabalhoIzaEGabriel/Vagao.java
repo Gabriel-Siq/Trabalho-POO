@@ -15,6 +15,7 @@ public class Vagao {
         this.capacidade = capacidade;
     }
     
+    
     //getset
     public int getNumSerie() {
         return numSerie;

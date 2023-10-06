@@ -42,6 +42,7 @@ public class Locomotiva {
     }
 
     // tostring
+    
 
     public String toString() {
         String str = " ";

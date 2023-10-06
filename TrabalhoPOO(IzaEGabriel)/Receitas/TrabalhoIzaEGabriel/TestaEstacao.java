@@ -64,6 +64,7 @@ public class TestaEstacao {
 
         // menu
 
+        
         System.out.print(
                 "---------------------------------------------------\nDigite a estrutura que deseja saber as informações: \n---------------------------------------------------\n1 - Estação Ferroviária\n2 - Linhas Ferroviária\n3 - Locomotiva\n4 - Trem\n5 - Vagao\n---------------------------------------------------\nO Número escolhido foi: ");
         Scanner sc = new Scanner(System.in);
