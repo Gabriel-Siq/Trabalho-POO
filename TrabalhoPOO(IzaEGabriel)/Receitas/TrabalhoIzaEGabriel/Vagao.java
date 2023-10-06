@@ -4,38 +4,8 @@ public class Vagao {
     private double capacidade;
     private double comprimentoTesteiras;
     private double comprimentoEngates;
-    
-    public int getNumSerie() {
-        return numSerie;
-    }
-    public void setNumSerie(int numSerie) {
-        this.numSerie = numSerie;
-    }
-    public String getTipo() {
-        return tipo;
-    }
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-    public double getCapacidade() {
-        return capacidade;
-    }
-    public void setCapacidade(double capacidade) {
-        this.capacidade = capacidade;
-    }
-    public double getComprimentoTesteiras() {
-        return comprimentoTesteiras;
-    }
-    public void setComprimentoTesteiras(double comprimentoEsteiras) {
-        this.comprimentoTesteiras = comprimentoEsteiras;
-    }
-    public double getComprimentoEngates() {
-        return comprimentoEngates;
-    }
-    public void setComprimentoEngates(double comprimentoEngates) {
-        this.comprimentoEngates = comprimentoEngates;
-    }
 
+    //construtores
 
     public Vagao(int numSerie) {
         this.numSerie = numSerie;
@@ -45,6 +15,43 @@ public class Vagao {
         this.capacidade = capacidade;
     }
     
+    //getset
+    public int getNumSerie() {
+        return numSerie;
+    }
+    public void setNumSerie(int numSerie) {
+        this.numSerie = numSerie;
+    }
+    
+    public String getTipo() {
+        return tipo;
+    }
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+    
+    public double getCapacidade() {
+        return capacidade;
+    }
+    public void setCapacidade(double capacidade) {
+        this.capacidade = capacidade;
+    }
+    
+    public double getComprimentoTesteiras() {
+        return comprimentoTesteiras;
+    }
+    public void setComprimentoTesteiras(double comprimentoEsteiras) {
+        this.comprimentoTesteiras = comprimentoEsteiras;
+    }
+    
+    public double getComprimentoEngates() {
+        return comprimentoEngates;
+    }
+    public void setComprimentoEngates(double comprimentoEngates) {
+        this.comprimentoEngates = comprimentoEngates;
+    }
+
+    //tostring
     public String toString(){
         String str = "";
         str += "\nNumero de Série do Vagão: " + this.numSerie;
